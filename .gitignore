@@ -154,3 +154,4 @@ todo_list/*.iml
 todo_list/.vscode
 todo_list/*.swp
 todo_list/*.swo
+react-redux-master/node_modules/
