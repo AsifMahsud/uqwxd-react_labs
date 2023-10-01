@@ -1,37 +1,43 @@
 h1 {
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-  }
+}
 
-  body {
+body {
     background: grey
-  }
-  #todo-list {
+}
+
+#todo-list {
     width: 500px;
     margin: 60px auto;
-  }
-  form, .todo {
+}
+
+form,
+.todo {
     border: 1px solid rgb(15, 26, 61);
     padding: 10px 20px;
     margin-bottom: 10px;
-  }
-  form {
+}
+
+form {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-  }
-  form input {
+}
+
+form input {
     padding: 4px 8px;
     flex-grow: 1;
     margin-right: 16px;
-  }
-  .todo {
+}
+
+.todo {
     display: flex;
     flex-direction: column;
-  }
-    
-  button {
+}
+
+button {
     font-size: 16px;
     background-color: rgb(62, 138, 151);
     color: #fff;
@@ -39,44 +45,56 @@ h1 {
     border: none;
     padding: 8px 16px;
     cursor: pointer;
-  }
-  button:hover {
+}
+
+button:hover {
     background-color: rgb(173, 47, 28);
-  }
-  button:active {
-    background-color: rgb(130,35,21);
-  }
-  button:focus {
+}
+
+button:active {
+    background-color: rgb(130, 35, 21);
+}
+
+button:focus {
     outline: 0;
-  }
-  input[type='text'] { font-size: 20px; font-family: monospace; }
-  .todo input[type="checkbox"] {
+}
+
+input[type='text'] {
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.todo input[type="checkbox"] {
     transform: scale(1.8) translateY(1px);
     margin: 0 16px 0 0;
     cursor: pointer;
-  }
-  .todo-text input {
+}
+
+.todo-text input {
     padding: 4px;
-  }
-  .todo-text {
+}
+
+.todo-text {
     font-size: 24px;
     line-height: 24px;
     margin-bottom: 1cm;
     display: flex;
     align-self: center;
-  }
-  .todo-completed {
+}
+
+.todo-completed {
     display: flex;
     margin: 10px 0;
-  }
-  .todo-actions {
+}
+
+.todo-actions {
     display: flex;
     justify-content: space-between;
-  }
+}
 
-  #completed {
+#completed {
     margin-left: 15px;
-  }
+}
 
 /* Style the credits */
 .credits {
@@ -89,37 +107,40 @@ h1 {
     bottom: 0;
     width: 100%;
     left: 0;
-  }
-  
-  .credits p:first-child {
+    padding-bottom: 10px;
+}
+
+.credits p:first-child {
     font-size: 20px;
     font-weight: bold;
     margin: 5px;
-  }
-  
-  .credits p:nth-child(2) {
+}
+
+.credits p:nth-child(2) {
     font-size: 16px;
     margin: 5px;
+}
+
+.credits ul {
     list-style: none;
     padding: 0;
     margin: 0;
-      display: none;  }
-  
-  .credits li {
-    margin: 5px 0;
-  }
-  
+}
+
+.credits li {
     margin: 5px 0;
     display: inline;
-    padding: 10px 20px;    margin: 5px 0;    padding: 10px 20px;    text-decoration: none;
-    color: #007bff;
-  
-  .credits a {
+    padding: 10px 20px;
+    margin: 5px 0;
+    padding: 10px 20px;
+}
+
+.credits a {
     text-decoration: none;
     color: #007bff;
     font-weight: bold;
-  }
-  
-  .credits a:hover {
+}
+
+.credits a:hover {
     text-decoration: underline;
-  }
+}
