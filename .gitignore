@@ -127,3 +127,30 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# React
+todo_list/.DS_STORE
+todo_list/node_modules
+todo_list/scripts/flow/*/.flowconfig
+todo_list/.flowconfig
+todo_list/*~
+todo_list/*.pyc
+todo_list/.grunt
+todo_list/_SpecRunner.html
+todo_list/__benchmarks__
+todo_list/build/
+todo_list/remote-repo/
+todo_list/coverage/
+todo_list/.module-cache
+todo_list/fixtures/dom/public/react-dom.js
+todo_list/fixtures/dom/public/react.js
+todo_list/test/the-files-to-test.generated.js
+todo_list/*.log*
+todo_list/chrome-user-data
+todo_list/*.sublime-project
+todo_list/*.sublime-workspace
+todo_list/.idea
+todo_list/*.iml
+todo_list/.vscode
+todo_list/*.swp
+todo_list/*.swo
