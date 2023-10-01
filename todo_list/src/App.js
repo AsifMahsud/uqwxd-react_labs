@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 const App = () => {
     const [todos, setTodos] = useState([]);
@@ -50,6 +50,21 @@ const App = () => {
         setTodos(updatedTodos);
         setTodoEditing(null);
     }
+
+    useEffect(() => {
+        const json = localStorage.getItem("todos");
+        const loadedTodos = JSON.parse(json);
+        if (loadedTodos) {
+            setTodos(loadedTodos);
+        }
+    }, []);
+
+    useEffect(() => {
+        if (todos.length > 0) {
+            const json = JSON.stringify(todos);
+            localStorage.setItem("todos", json);
+        }
+    }, [todos]);
 
     return (
         <div id="todo-list">
