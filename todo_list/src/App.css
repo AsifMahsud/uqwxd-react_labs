@@ -78,3 +78,48 @@ h1 {
     margin-left: 15px;
   }
 
+/* Style the credits */
+.credits {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+  }
+  
+  .credits p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+  }
+  
+  .credits p:nth-child(2) {
+    font-size: 16px;
+    margin: 5px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+      display: none;  }
+  
+  .credits li {
+    margin: 5px 0;
+  }
+  
+    margin: 5px 0;
+    display: inline;
+    padding: 10px 20px;    margin: 5px 0;    padding: 10px 20px;    text-decoration: none;
+    color: #007bff;
+  
+  .credits a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .credits a:hover {
+    text-decoration: underline;
+  }

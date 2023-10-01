@@ -111,6 +111,15 @@ const App = () => {
                     </div>
                 </div>
             ))}
+            <div className="credits">
+                <p>Name: Muhammad Asif</p>
+                <p>Connect with me:</p>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/asif543/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+                    <li><a href="mailto:Asifmahsud543@gmail.com">Email</a></li>
+                    <li><a href="https://github.com/AsifMahsud" target="_blank" rel="noopener noreferrer">Github</a></li>
+                </ul>
+            </div>
         </div>
     );
 };
